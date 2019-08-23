@@ -1,0 +1,28 @@
+html {
+  font-family: Trebuchet MS;
+}
+a {
+  color: Steelblue;
+  text-decoration: none;
+}
+#line {
+  border-bottom: 4px solid thistle;
+  padding:5px;
+  margin:0;
+}
+#grid{
+   display: grid;
+   grid-template-columns: 150px 1fr;
+ }
+#grid ol {
+  border-right: 4px solid thistle;
+  font-size: 20px;
+  margin:0;
+  padding:30px;
+}
+#article {
+  margin-left: 30px;
+}
+.paragraph {
+ font-size: 20px;
+}
